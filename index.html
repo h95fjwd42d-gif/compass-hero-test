@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f3faff" />
+  <meta name="description" content="104ヒーローから選ぶ2つの診断。好きから探すヒーロー診断30問、実戦から探すヒーロー診断30問。非公式ファンメイド。" />
+  <title>#コンパス HERO FINDER v9.10.2 Xシェア対応｜#コンパス 非公式ヒーロー診断</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-left" aria-hidden="true"></div><div class="ambient ambient-right" aria-hidden="true"></div>
+  <header class="site-header"><div class="header-inner">
+    <a href="#home" class="brand" id="brand-home" aria-label="トップページへ">
+      <span class="brand-icon" aria-hidden="true"><span></span></span>
+      <span class="brand-text">HERO <b>FINDER</b><small>#コンパス 非公式ヒーロー診断</small></span>
+    </a>
+    <nav aria-label="サイトメニュー" class="header-nav">
+      <span class="version-badge">v9.10.2 <span>検証β</span></span>
+      <button type="button" class="text-button" id="nav-roster">104人を見る <span aria-hidden="true">↗</span></button>
+    </nav>
+  </div></header>
+  <main id="main" tabindex="-1">
+    <section id="home" class="screen home-screen" aria-labelledby="home-title">
+      <div class="home-hero">
+        <div class="home-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> 104ヒーローから、2つの方法で探す</div>
+          <h1 id="home-title">使って勝てそうなキャラも、<br/><em>好きになれるキャラ</em>も。</h1>
+          <p class="lead">最初に診断方法を選ぼう。好みから選ぶ診断と、実際のプレイ経験から選ぶ診断を用意しました。目的の違う2つの方法から選べます。</p>
+          <div class="mode-picker" aria-label="診断モードを選ぶ">
+            <button class="mode-card mode-card-practical" type="button" id="start-practical">
+              <span class="mode-tag">NEW · 30 QUESTIONS</span><strong>実戦から探すヒーロー診断 <span aria-hidden="true">↗</span></strong>
+              <span class="mode-summary">操作・立ち回り・カードの実力を自己申告。苦手な操作も考慮して、実戦で使いやすそうな5人を探す。</span>
+              <span class="mode-action">実戦から探す →</span>
+            </button>
+            <button class="mode-card mode-card-classic" type="button" id="start">
+              <span class="mode-tag">ORIGINAL · 30 QUESTIONS</span><strong>好きから探すヒーロー診断 <span aria-hidden="true">↗</span></strong>
+              <span class="mode-summary">性格10問とゲーム・外見の質問で、性能相性と見た目の好みを別々に表示する。</span>
+              <span class="mode-action">好きから探す →</span>
+            </button>
+          </div>
+          <div class="intent-setting"><label for="intent-visible" class="intent-setting-label"><input id="intent-visible" type="checkbox" checked><span><strong>質問の意図を表示する（検証用β）</strong><small>各質問が測るもの・得点への影響が見えます。OFFにして普通の診断としても使えます。</small></span></label><p>質問の意図を表示しても、回答数・採点・ランキングは変わりません。気になった質問は番号を控えて教えてください。</p></div>
+          <div class="mode-resumes"><button class="secondary-button" type="button" id="continue" hidden>好きから探す診断の続き →</button><button class="secondary-button" type="button" id="continue-practical" hidden>実戦から探す診断の続き →</button></div>
+          <p class="soft-note"><span aria-hidden="true">✦</span> 両モード無料・会員登録不要／非公式ファンメイド</p>
+        </div>
+        <div class="home-art" aria-hidden="true">
+          <div class="orbital outer"><span class="orbit-tick t1"></span><span class="orbit-tick t2"></span></div>
+          <div class="orbital inner"></div><div class="hero-core"><span class="hero-core-figure">?</span><span class="hero-core-small">WHO IS YOUR HERO</span></div>
+          <div class="floating-info fi-one"><span class="float-label">TOTAL HEROES</span><b>104<span> HEROES</span></b></div>
+          <div class="floating-info fi-two"><span class="float-label">DIAGNOSIS MODES</span><b>2<span> MODES</span></b></div>
+          <div class="float-spark s1">✦</div><div class="float-spark s2">+</div><div class="float-spark s3">✳</div>
+        </div>
+      </div>
+      <section class="journey" aria-labelledby="journey-title"><div class="section-intro"><div class="eyebrow small">HOW IT WORKS</div><h2 id="journey-title">好きから探すヒーロー診断は30問。実戦から探すヒーロー診断も30問。</h2><p class="journey-note">以下は「好きから探すヒーロー診断」の流れです。「実戦から探すヒーロー診断」では性格と見た目の質問は出題しません。</p></div>
+        <div class="journey-grid">
+          <article class="journey-card"><span class="step-ico lavender">01</span><div><div class="step-title-row"><span class="step-num">STAGE 01</span><span class="count-pill">10 QUESTIONS</span></div><h3>まずは、あなた自身のこと。</h3><p>ゲームの知識は不要。性格や日常の選択から、あなたらしさを探ります。</p></div></article>
+          <article class="journey-card"><span class="step-ico cyan">02</span><div><div class="step-title-row"><span class="step-num">STAGE 02</span><span class="count-pill">19 QUESTIONS</span></div><h3>戦い方と見た目を別々に調べる。</h3><p>ゲームでの使い方と、衣装・デザインの好みを分けて質問します。</p></div></article>
+          <article class="journey-card"><span class="step-ico peach">03</span><div><div class="step-title-row"><span class="step-num">STAGE 03</span><span class="count-pill">1 QUESTION</span></div><h3>最後のひと押し。</h3><p>性能の上位候補への専用質問で確認。内容によっては参考回答として扱います。</p></div></article>
+        </div>
+      </section>
+      <section class="footnote-card"><div class="star-icon">✳</div><div><strong>この診断について</strong><p>このサイトは非公式ファンメイドです。「実戦から探すヒーロー診断」も、プレイヤー自身の回答と暫定的なヒーロー研究に基づく候補提示です。プレイ実績・勝率・カード所持を自動取得する機能や、公式の適性判定ではありません。</p></div></section>
+      <section class="home-history" id="history-area" hidden><div class="section-intro"><div class="eyebrow small">ON THIS DEVICE</div><h2>この端末での診断記録</h2></div><div id="history-content"></div></section>
+    </section>
+
+    <section id="quiz" class="screen quiz-screen" hidden aria-labelledby="quiz-title">
+      <div class="quiz-shell">
+        <div class="quiz-top"><button type="button" class="back-link" id="quit-quiz">← トップへ</button><div class="quiz-counter"><strong id="q-number">01</strong><span>/ 30</span></div></div>
+        <div class="progress-track" role="progressbar" aria-label="診断の進捗" aria-valuemin="0" aria-valuemax="30" aria-valuenow="0" id="progress" ><span id="progress-fill"></span></div>
+        <div class="stage-tabs" aria-label="診断ステージ"><span data-stage="1">01 <b>PERSONALITY</b></span><span data-stage="2">02 <b>GAMEPLAY + LOOKS</b></span><span data-stage="3">03 <b>FINAL CHECK</b></span></div>
+        <section id="gameplay-intro" class="gameplay-intro" hidden aria-labelledby="gameplay-intro-title">
+          <span class="gameplay-intro-eyebrow">STAGE 02 / GAMEPLAY &amp; LOOKS</span>
+          <div class="gameplay-intro-check" aria-hidden="true">✓</div>
+          <p class="gameplay-intro-complete">性格についての10問が完了！</p>
+          <h2 id="gameplay-intro-title">ここからは<br/><em>#コンパスの質問です</em></h2>
+          <p class="gameplay-intro-description">次は「どんな戦い方が好き？」「どんな見た目が好み？」を聞いていきます。<br/>性格の答えを、キャラの戦闘性能や見た目の得点に混ぜることはありません。</p>
+          <div class="gameplay-intro-actions"><button type="button" id="gameplay-next" class="primary-button large">コンパスの質問へ進む <span aria-hidden="true">→</span></button><button type="button" id="gameplay-back" class="secondary-button">前の質問に戻る</button></div>
+          <span class="gameplay-intro-counter">10 / 30 問回答済み</span>
+        </section>
+        <div class="question-panel" id="question-panel" aria-live="polite"><div class="question-ornament"><span>✦</span><span>QUESTION <span id="q-label-num">01</span></span></div>
+          <div class="question-category" id="q-category">性格診断</div><h2 id="quiz-title">質問を読み込み中…</h2>
+          <p class="question-guide" id="q-guide">直感に近い答えを選んでね。</p>
+          <details class="question-intent" id="classic-intent" open><summary><span class="intent-small-tag">検証用β</span>この質問の意図を見る <span class="intent-expand">⌄</span></summary><div class="intent-body" id="classic-intent-content"></div></details>
+          <div class="answer-grid">
+            <button type="button" data-answer="yes" class="answer answer-yes"><span class="answer-symbol">✓</span><span>はい</span><span class="answer-arrow">↗</span></button>
+            <button type="button" data-answer="no" class="answer answer-no"><span class="answer-symbol">×</span><span>いいえ</span><span class="answer-arrow">↗</span></button>
+            <button type="button" data-answer="neutral" class="answer answer-neutral"><span class="answer-symbol">—</span><span>どちらでもない</span><span class="answer-arrow">↗</span></button>
+            <button type="button" data-answer="unknown" class="answer answer-unknown"><span class="answer-symbol">?</span><span>わからない</span><span class="answer-arrow">↗</span></button>
+          </div>
+        </div>
+        <div class="quiz-bottom"><button type="button" id="previous" class="back-link">← ひとつ前の質問</button><span>どの回答も、あなたに合わせるためのヒント。</span></div>
+      </div>
+    </section>
+
+    <section id="result" class="screen result-screen" hidden aria-labelledby="result-title"><div id="results-content"></div></section>
+
+    <section id="practical-quiz" class="screen quiz-screen practical-screen" hidden aria-labelledby="practical-quiz-title">
+      <div class="quiz-shell">
+        <div class="quiz-top"><button type="button" class="back-link" id="practical-quit">← モード選択へ</button><div class="quiz-counter"><strong id="practical-number">01</strong><span>/ 30</span></div></div>
+        <div class="progress-track practical-progress" role="progressbar" aria-label="実戦から探すヒーロー診断の進捗" aria-valuemin="0" aria-valuemax="30" aria-valuenow="0" id="practical-progress"><span id="practical-progress-fill"></span></div>
+        <div class="practical-question-panel question-panel" aria-live="polite">
+          <div class="question-ornament"><span>◆</span><span>GAMEPLAY SKILL CHECK</span></div>
+          <div class="question-category" id="practical-category">ロール経験</div>
+          <h2 id="practical-quiz-title">質問を読み込み中…</h2>
+          <p class="question-guide" id="practical-answer-guide">実際のプレイ経験で答えてください。できるだけで、そのカード採用キャラが向いているとは限りません。</p><p id="practical-down-guide" class="down-guide" hidden><strong>転倒（ダウン）とは？</strong> 敵が一時的に倒れ、移動・カード・HA・HSが使えない状態です。スタンや単なるノックバック・打ち上げとは別です。</p><p id="practical-card-down-guide" class="down-guide" hidden><strong>v9.3実験ルール：近距離または周囲が使えれば対象</strong> 近距離カードだけ、周囲カードだけのヒーローも「カードで転倒を狙える」と仮定して採点します。従来の貫通カードの研究も残しています。ただし実際にダウンするかはカード効果、ロール、敵のダメカなどで違い、吹き飛ばし・打ち上げが必ず転倒になるわけではありません。HA・DAの転倒とは別に回答してください。</p>
+          <details class="question-intent" id="practical-intent" open><summary><span class="intent-small-tag">検証用β</span>この質問の意図を見る <span class="intent-expand">⌄</span></summary><div class="intent-body" id="practical-intent-content"></div></details>
+          <div class="practical-answers">
+            <button type="button" data-practical-answer="yes" class="answer answer-yes"><span class="answer-symbol">✓</span><span>安定してできる</span></button>
+            <button type="button" data-practical-answer="sometimes" class="answer answer-neutral"><span class="answer-symbol">~</span><span>ある程度できる</span></button>
+            <button type="button" data-practical-answer="no" class="answer answer-no"><span class="answer-symbol">×</span><span>苦手・できない</span></button>
+            <button type="button" data-practical-answer="unknown" class="answer answer-unknown"><span class="answer-symbol">?</span><span>未経験・判断できない</span></button>
+          </div>
+        </div>
+        <div class="quiz-bottom"><button type="button" id="practical-back" class="back-link">← 前の質問へ</button><span>性格や見た目の質問はありません。</span></div>
+      </div>
+    </section>
+
+    <section id="practical-result" class="screen result-screen practical-result-screen" hidden aria-labelledby="practical-result-title"><div id="practical-results-content"></div></section>
+
+    <section id="roster" class="screen roster-screen" hidden aria-labelledby="roster-title">
+      <div class="roster-head"><button class="back-link" type="button" id="roster-back">← 戻る</button><div class="eyebrow small">HERO LIBRARY</div><h1 id="roster-title">104人のヒーローたち。</h1><p>研究資料に含まれる全104人を掲載。表示の説明は暫定的な研究メモです。</p></div>
+      <div class="roster-controls"><label class="search-box"><span aria-hidden="true">⌕</span><input type="search" id="hero-search" placeholder="ヒーローを検索" autocomplete="off" aria-label="ヒーロー名で検索" /></label><select id="hero-role" aria-label="ロールで絞り込み"><option value="">すべてのロール</option><option>スプリンター</option><option>アタッカー</option><option>ガンナー</option><option>タンク</option></select></div>
+      <p id="roster-count" class="roster-count"></p><div id="roster-grid" class="roster-grid"></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><span class="footer-logo">HERO <b>FINDER</b></span><span>非公式ファンメイド作品／#コンパス公式とは関係ありません。</span><span>v9.10.1 検証β・2つの診断名を更新</span></div></footer>
+  <script src="data.js"></script><script src="core.js"></script><script src="practical.js"></script><script src="question-intents.js"></script><script src="app.js"></script>
+</body></html>

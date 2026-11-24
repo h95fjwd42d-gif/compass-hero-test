@@ -1,0 +1,1 @@
+PASS: Chromium DOM fixture 390/1100px, 30 questions, save/resume, back, five overall, four collapsed role lists with 12 entries, score/order unchanged, 104 roster + disclaimer + return, all unknown held, no JS errors. localStorage mocked; real file:// and live hosting not tested.

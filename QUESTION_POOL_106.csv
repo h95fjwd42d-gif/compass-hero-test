@@ -1,0 +1,107 @@
+﻿id,bucket,group,mode,question,weight,signals,skillTag,legacy
+EX00,meta,プレイ経験,meta,最近の#コンパスのプレイ頻度はどのくらい？,0,{},,False
+EX01,meta,プレイ経験,meta,普段は何人くらいのヒーローを使う？,0,{},,False
+AR01,roleStyle,ロールの好み,style,スプリンターのように、ポータルを素早く取りに行く役割をよく選ぶ？,1.05,"{""role:スプリンター"": 0.65, ""trait:objective"": 0.35}",,False
+AR02,roleStyle,ロールの好み,style,ロールに関係なく、自分で敵を倒す役割を担うことが多い？,1.05,"{""trait:burst"": 0.5, ""trait:aggressive"": 0.5}",,False
+AR03,roleStyle,ロールの好み,style,ガンナーのように、射程を活かして味方を援護する役割をよく選ぶ？,1.05,"{""role:ガンナー"": 0.6, ""trait:range"": 0.4}",,False
+AR04,roleStyle,ロールの好み,style,タンクのように、ポータルを守り味方を支える役割をよく選ぶ？,1.05,"{""role:タンク"": 0.6, ""trait:hold"": 0.4}",,False
+AR05,roleStyle,ロールの好み,style,試合や味方の編成によって、違うロールを使い分けることが多い？,0.9,"{""trait:flex"": 0.7, ""trait:team"": 0.3}",,False
+AR06,roleStyle,ロールの好み,style,前線でキルを取るより、相手の行動を妨害する役割が好き？,1,"{""trait:disrupt"": 0.5, ""trait:control"": 0.35, ""trait:support"": 0.15}",,False
+AR07,roleStyle,ロールの好み,style,支援も攻撃も、試合展開に合わせて役割を切り替えることが多い？,1,"{""trait:flex"": 0.7, ""trait:team"": 0.3}",,False
+AP01,objective,ポータル・状況判断,skill,ポータルの数と残り時間から、いったん退く判断ができる？,1.25,"{""trait:objective"": 0.5, ""trait:safe"": 0.25, ""trait:flex"": 0.25}",,False
+AP02,objective,ポータル・状況判断,style,敵が複数で守るポータルを、別の拠点へ向かって動かす判断をすることが多い？,1,"{""trait:reposition"": 0.4, ""trait:objective"": 0.4, ""trait:flex"": 0.2}",,False
+AP03,objective,ポータル・状況判断,style,拠点を守る場面で、敵を追いすぎず味方を待つことが多い？,1.05,"{""trait:hold"": 0.55, ""trait:team"": 0.25, ""trait:defense"": 0.2}",,False
+AP04,objective,ポータル・状況判断,skill,敵の人数差ができた瞬間に、味方と一緒にポータルを攻められる？,1.3,"{""trait:objective"": 0.65, ""trait:team"": 0.35}",,False
+AP05,objective,ポータル・状況判断,skill,味方が倒れたとき、無理な交戦より時間稼ぎを優先できる？,1.05,"{""trait:hold"": 0.35, ""trait:safe"": 0.35, ""trait:flex"": 0.3}",,False
+AP06,objective,ポータル・状況判断,skill,有利な試合で、自分が前に出るか守るかを切り替えられる？,1.2,"{""trait:flex"": 0.55, ""trait:objective"": 0.45}",,False
+AP07,objective,ポータル・状況判断,style,倒した敵の復帰を見て、次に守るポータルを先に決めることが多い？,1.15,"{""trait:objective"": 0.6, ""trait:hold"": 0.4}",,False
+AF01,mechanic,操作・間合い,skill,敵の攻撃を避けながら、自分の攻撃が届く間合いを維持できる？,1.3,"{""trait:safe"": 0.6, ""trait:skill"": 0.4}",,False
+AF02,mechanic,操作・間合い,skill,敵に近づかれたとき、攻撃を止めて安全な距離を作り直せる？,1.3,"{""trait:safe"": 0.6, ""trait:mobility"": 0.4}",,False
+AF03,mechanic,操作・間合い,skill,敵のカード使用後の隙を見てから攻撃を始められる？,1.2,"{""trait:counter"": 0.4, ""trait:skill"": 0.4, ""trait:melee"": 0.2}",,False
+AF04,mechanic,操作・間合い,skill,敵を追っている途中で、危険を感じたら無理なく離脱できる？,1.2,"{""trait:mobility"": 0.4, ""trait:safe"": 0.35, ""trait:flex"": 0.25}",,False
+AF05,mechanic,操作・間合い,skill,接近して短時間で攻撃し、相手の反撃前に距離を取れる？,1.15,"{""trait:melee"": 0.55, ""trait:burst"": 0.25, ""trait:mobility"": 0.2}",,False
+AF06,mechanic,操作・間合い,skill,通常攻撃を続けながら、敵の位置を見て標的を切り替えられる？,1.1,"{""trait:range"": 0.4, ""trait:skill"": 0.3, ""trait:team"": 0.3}",,False
+AF07,mechanic,操作・間合い,skill,攻めるタイミングと守るタイミングを、操作を止めずに切り替えられる？,1.15,"{""trait:flex"": 0.5, ""trait:skill"": 0.25, ""trait:objective"": 0.25}",,False
+AF08,mechanic,操作・間合い,skill,敵から集中攻撃されても、回避ルートを考えて生き残れる？,1.3,"{""trait:safe"": 0.45, ""trait:mobility"": 0.3, ""trait:defense"": 0.25}",,False
+AF09,mechanic,操作・間合い,skill,敵を追い詰める位置取りで、短時間にキルまでつなげられる？,1.1,"{""trait:burst"": 0.4, ""trait:aggressive"": 0.3, ""trait:reposition"": 0.3}",,False
+AF10,mechanic,操作・間合い,skill,攻撃を受け止める位置と、無理せず引く位置を判断できる？,1.15,"{""trait:defense"": 0.45, ""trait:hold"": 0.25, ""trait:safe"": 0.3}",,False
+AT01,team,連携・支援,style,味方がキルを狙うとき、敵の退路をふさぐ位置に移動することが多い？,1,"{""trait:team"": 0.35, ""trait:control"": 0.4, ""trait:reposition"": 0.25}",,False
+AT02,team,連携・支援,style,味方が危険なとき、自分のキルより味方を守るための回復や援護を優先することが多い？（自分用の回復は除く）,1.1,"{""trait:team"": 0.35, ""trait:heal"": 0.35, ""trait:support"": 0.3}",,False
+AT03,team,連携・支援,skill,敵を妨害した直後、味方が攻撃できるかを見て行動を変えられる？,1.15,"{""trait:disrupt"": 0.35, ""trait:team"": 0.35, ""trait:control"": 0.3}",,False
+AT04,team,連携・支援,style,味方と別方向から敵を挟み、行動できる範囲を狭めることが多い？,1,"{""trait:team"": 0.4, ""trait:control"": 0.3, ""trait:reposition"": 0.3}",,False
+AT05,team,連携・支援,skill,味方のHPが減ったとき、自分も敵を引きつけて時間を稼げる？,1.15,"{""trait:team"": 0.3, ""trait:hold"": 0.3, ""trait:defense"": 0.4}",,False
+AT06,team,連携・支援,skill,スタンなどで敵の動きを止めた後、味方と追撃のタイミングを合わせられる？,1.15,"{""trait:team"": 0.45, ""trait:control"": 0.35, ""trait:skill"": 0.2}",,False
+AT07,team,連携・支援,style,キルを取れない場面でも、味方のために進路や攻撃の邪魔をすることが多い？,1,"{""trait:control"": 0.4, ""trait:disrupt"": 0.3, ""trait:support"": 0.3}",,False
+AK01,card,カード操作,cardSkill,近距離カードを相手のガードや硬直に合わせて発動できる？,1.1,"{""card:deck_near"": 1}",,False
+AK02,card,カード操作,cardSkill,遠距離カードを使う場面で、攻撃後の隙をカバーできる？,1.1,"{""card:deck_ranged"": 1}",,False
+AK03,card,カード操作,cardSkill,連続攻撃カードを、途中で逃げられない位置から使える？,1.2,"{""card:deck_combo"": 1}",,False
+AK04,card,カード操作,cardSkill,周囲カードを敵に近づかれた際の自衛にも使える？,1.05,"{""card:deck_area"": 1}",,False
+AK05,card,カード操作,cardSkill,ガードブレイクを使う前に相手のガードを確認できる？,1.2,"{""card:deck_guardbreak"": 1}",,False
+AK06,card,カード操作,skill,スタンカードを当てたあと、味方の追撃につなげる判断ができる？,1.1,"{""trait:control"": 0.5, ""trait:team"": 0.5}",,False
+AK07,card,カード操作,cardSkill,罠を設置したあと、敵を罠がある方向へ誘導できる？,1.05,"{""card:deck_trap"": 1}",,False
+AK08,card,カード操作,cardSkill,ドアで移動した直後、安全な位置を確保できる？,1.05,"{""card:deck_door"": 1}",,False
+AU01,usage,デッキの使用経験,usage,普段のデッキに、ガードブレイクカードを入れることが多い？,0.75,"{""card:deck_guardbreak"": 1}",,False
+AU02,usage,デッキの使用経験,usage,普段のデッキに、回復カードを入れることが多い？,0.7,"{""card:deck_heal"": 1}",,False
+AU03,usage,デッキの使用経験,usage,普段のデッキに、カウンターカードを入れることが多い？,0.7,"{""card:deck_counter"": 1}",,False
+AU04,usage,デッキの使用経験,usage,普段のデッキに、移動速度強化カードを入れることが多い？,0.7,"{""card:deck_speed_buff"": 1}",,False
+AU05,usage,デッキの使用経験,usage,普段のデッキに、ダメージカットなどの防御カードを入れることが多い？,0.7,"{""card:deck_damagecut"": 1}",,False
+AU06,usage,デッキの使用経験,usage,スタンカードと攻撃カードを組み合わせた構成を使うことが多い？,0.7,"{""card:deck_stun"": 0.65, ""trait:control"": 0.35}",,False
+AD01,down,転倒・追撃,style,敵を転倒させたあと、味方に追撃を任せてポータルを狙うことが多い？,0.9,"{""trait:objective"": 0.5, ""trait:team"": 0.3, ""trait:control"": 0.2}",,False
+AD02,down,転倒・追撃,skill,敵が転倒したとき、自分で追撃してキルを狙える？,1.1,"{""down:followup"": 0.6, ""trait:burst"": 0.4}",,False
+AD03,down,転倒・追撃,skill,敵を転倒させる固有技を使う際、安全な距離やタイミングを判断できる？,0.95,"{""down:opener"": 0.65, ""trait:safe"": 0.35}",,False
+AD04,down,転倒・追撃,skill,敵が転倒したとき、味方の位置を見て追撃か防衛か選べる？,0.95,"{""trait:flex"": 0.4, ""trait:objective"": 0.35, ""trait:team"": 0.25}",,False
+AH01,haHs,HA・HSの使い方,haSkill,タメ・段階調整があるHAを、敵の動きに合わせて当てられる？,1,"{""skill:ha-charge"": 1}",ha-charge,False
+AH02,haHs,HA・HSの使い方,haSkill,ロックオン型HAで、攻撃対象を適切に選んで使える？,0.9,"{""skill:ha-lockon"": 1}",ha-lockon,False
+AH03,haHs,HA・HSの使い方,haSkill,設置位置が重要なHAで、敵の進路を予測して置ける？,0.9,"{""skill:ha-placement"": 1}",ha-placement,False
+AS01,haHs,HA・HSの使い方,hsSkill,敵をスタンさせたり行動を制限したりするHSを、味方が攻められるタイミングに合わせて使える？,1,"{""skill:hs-control"": 1}",hs-control,False
+AS02,haHs,HA・HSの使い方,skill,HSを使うタイミングを、ポータルの状況と残り時間から考えられる？,1,"{""trait:ultimate"": 0.35, ""trait:objective"": 0.4, ""trait:flex"": 0.25}",,False
+AS03,haHs,HA・HSの使い方,skill,HSを使ったあと、攻めるか守るかを味方と合わせて決められる？,1,"{""trait:ultimate"": 0.3, ""trait:team"": 0.35, ""trait:flex"": 0.35}",,False
+AS04,haHs,HA・HSの使い方,skill,HSを温存しすぎず、必要な場面で使う判断ができる？,1.05,"{""trait:ultimate"": 0.4, ""trait:flex"": 0.3, ""trait:objective"": 0.3}",,False
+AS05,haHs,HA・HSの使い方,skill,自分のHSゲージを意識して、序盤の行動を調整できる？,1.05,"{""trait:ultimate"": 0.4, ""trait:objective"": 0.4, ""trait:skill"": 0.2}",,False
+AS06,haHs,HA・HSの使い方,skill,HSの演出や効果が終わったあと、危険を避けて立ち回れる？,1,"{""trait:ultimate"": 0.35, ""trait:safe"": 0.35, ""trait:flex"": 0.3}",,False
+AO01,preference,やってみたい戦い方,preference,遊ぶなら、ポータルを素早く取る役割を楽しみたい？,0.7,"{""role:スプリンター"": 0.55, ""trait:objective"": 0.45}",,False
+AO02,preference,やってみたい戦い方,preference,遊ぶなら、敵を倒す攻撃中心の役割を楽しみたい？,0.7,"{""role:アタッカー"": 0.6, ""trait:aggressive"": 0.4}",,False
+AO03,preference,やってみたい戦い方,preference,遊ぶなら、遠くから攻撃して支える役割を楽しみたい？,0.7,"{""role:ガンナー"": 0.6, ""trait:range"": 0.4}",,False
+AO04,preference,やってみたい戦い方,preference,遊ぶなら、ポータルを守って味方を支える役割を楽しみたい？,0.7,"{""role:タンク"": 0.55, ""trait:hold"": 0.45}",,False
+AO05,preference,やってみたい戦い方,preference,自分でキルを取るより、妨害や支援をしてみたい？,0.7,"{""trait:support"": 0.4, ""trait:control"": 0.35, ""trait:team"": 0.25}",,False
+AO06,preference,やってみたい戦い方,preference,移動しながら戦う、機動力を活かす戦い方を試してみたい？,0.7,"{""trait:mobility"": 0.65, ""trait:reposition"": 0.35}",,False
+AO07,preference,やってみたい戦い方,preference,いろんなロールのヒーローを試してみたい？,0.6,"{""trait:flex"": 0.7, ""trait:team"": 0.3}",,False
+AO08,preference,やってみたい戦い方,preference,敵に近づくより、離れて安全に戦うスタイルを試してみたい？,0.65,"{""trait:range"": 0.6, ""trait:safe"": 0.4}",,False
+AO09,preference,やってみたい戦い方,preference,大事なポータルを守り抜く役割を楽しみたい？,0.65,"{""trait:hold"": 0.55, ""trait:defense"": 0.45}",,False
+AO10,preference,やってみたい戦い方,preference,味方と一緒に動き、攻撃のチャンスを作る戦い方を試したい？,0.65,"{""trait:team"": 0.55, ""trait:control"": 0.45}",,False
+AO11,preference,やってみたい戦い方,preference,相手の攻撃を見てから反撃する戦い方に興味がある？,0.65,"{""trait:counter"": 0.65, ""trait:safe"": 0.35}",,False
+AO12,preference,やってみたい戦い方,preference,ここぞという場面で短時間に攻め込む戦い方をしてみたい？,0.65,"{""trait:burst"": 0.6, ""trait:aggressive"": 0.4}",,False
+AO13,preference,やってみたい戦い方,preference,敵が近づきにくい場所を作って戦うスタイルに興味がある？,0.65,"{""trait:zone"": 0.55, ""trait:control"": 0.45}",,False
+AO14,preference,やってみたい戦い方,preference,味方を回復して長く戦えるようにする役割に興味がある？,0.65,"{""trait:heal"": 0.55, ""trait:support"": 0.45}",,False
+AO15,preference,やってみたい戦い方,preference,敵を足止めし、その間にポータルを確保する戦い方を試したい？,0.65,"{""trait:control"": 0.45, ""trait:objective"": 0.55}",,False
+AO16,preference,やってみたい戦い方,preference,敵を倒すよりも生き残って守り続ける戦い方を試したい？,0.65,"{""trait:safe"": 0.45, ""trait:defense"": 0.55}",,False
+R01,roleExperience,ロール経験,skill,スプリンターでダッシュを使い、ポータルの奪取と離脱まで安定してこなせる？,2.2,"{""role:スプリンター"": 1}",,True
+R02,roleExperience,ロール経験,skill,アタッカーで接近のタイミングを見て、キルを狙った後に無理なく離脱できる？,2.2,"{""role:アタッカー"": 1}",,True
+R03,roleExperience,ロール経験,skill,ガンナーで敵との距離を保ちながら攻撃を続け、自分を守れる？,2.2,"{""role:ガンナー"": 1}",,True
+R04,roleExperience,ロール経験,skill,タンクで攻撃を受ける場面を判断し、ポータルを守り続けられる？,2.2,"{""role:タンク"": 1}",,True
+P01,objective,ポータル・勝ち筋,skill,敵味方の人数と位置を見て、ポータルを取りに行くタイミングを決められる？,1.45,"{""trait:objective"": 1}",,True
+P02,objective,ポータル・勝ち筋,style,敵を追いかけてキルを狙うより、今あるポータルの防衛を優先することが多い？,1.4,"{""trait:hold"": 0.65, ""trait:defense"": 0.35}",,True
+P04,objective,ポータル・勝ち筋,style,味方が敵を足止めしてくれた場面で、追撃よりポータル確保を優先することが多い？,1.1,"{""trait:objective"": 0.7, ""trait:flex"": 0.3}",,True
+P05,objective,ポータル・勝ち筋,style,ポータルを守る敵に対して、無理に倒すより味方と挟んだり位置を変えて動かすことが多い？,1.05,"{""trait:reposition"": 0.35, ""trait:team"": 0.35, ""trait:control"": 0.3}",,True
+P06,objective,ポータル・勝ち筋,skill,残り時間に応じて、攻める・守る・時間を稼ぐを切り替えられる？,1.4,"{""trait:objective"": 0.6, ""trait:flex"": 0.4}",,True
+F01,mechanic,戦闘操作・間合い,skill,相手の攻撃範囲に入るリスクを管理し、近距離戦を安定してこなせる？,1.5,"{""trait:melee"": 0.8, ""trait:skill"": 0.2}",,True
+F02,mechanic,戦闘操作・間合い,skill,通常攻撃などで遠くから攻撃を続け、敵に接近されないように距離を保てる？,1,"{""trait:range"": 1}",,True
+F03,mechanic,戦闘操作・間合い,skill,移動と攻撃を並行して、相手の攻撃を避けながら戦える？,1.4,"{""trait:mobility"": 0.65, ""trait:skill"": 0.35}",,True
+F05,mechanic,戦闘操作・間合い,style,先に仕掛けるより、相手の攻撃を見て反撃の機会を狙うことが多い？,1.25,"{""trait:counter"": 1}",,True
+F07,mechanic,戦闘操作・間合い,style,生存や防衛より、多少のリスクを取ってでもキルの機会を優先することが多い？,1.05,"{""tradeoff:damageOverDurability"": 0.55, ""trait:risk"": 0.25, ""trait:aggressive"": 0.2}",,True
+F08,mechanic,戦闘操作・間合い,style,味方と交戦するとき、妨害や支援より自分がキルを取り切る役割を担うことが多い？,1.1,"{""trait:burst"": 0.45, ""trait:aggressive"": 0.35, ""trait:melee"": 0.2}",,True
+K01,card,カード実技・所持,cardSkill,実戦で近距離攻撃カードを使う際、相手の硬直や位置を見て命中させられる？,1.45,"{""card:deck_near"": 1}",,True
+K02,card,カード実技・所持,cardSkill,実戦で連続攻撃カードを使う際、敵が逃げにくいタイミングを見て当てられる？,1.5,"{""card:deck_combo"": 1}",,True
+K03,card,カード実技・所持,cardSkill,実戦で遠距離攻撃カードを使う際、射程と硬直を考えて当てられる？,1.45,"{""card:deck_ranged"": 1}",,True
+K04,card,カード実技・所持,cardSkill,実戦で周囲攻撃カードを使う際、相手の位置を見て攻撃や自衛に活かせる？,1.4,"{""card:deck_area"": 1}",,True
+K05,card,カード実技・所持,cardSkill,実戦でガードブレイクカードを使う際、相手のガードを確認してから当てられる？,1.55,"{""card:deck_guardbreak"": 1}",,True
+K06,usage,カード実技・所持,usage,スタンカードを入れたデッキを、実際の試合で使うことが多い？,0.85,"{""card:deck_stun"": 1}",,True
+K07,usage,カード実技・所持,usage,普段のデッキに罠カードを入れ、試合中に設置して使うことが多い？,1.9,"{""card:deck_trap"": 1}",,True
+K08,usage,カード実技・所持,usage,普段のデッキに「どこにでもいけるドア」を入れ、試合で使うことが多い？,1.9,"{""card:deck_door"": 1}",,True
+K11,usage,カード実技・所持,usage,普段のデッキに自強化カードを入れ、試合で使うことが多い？,1.45,"{""card:deck_self_buff"": 1}",,True
+K12,usage,カード実技・所持,usage,普段のデッキに敵の防御力を下げるカードを入れ、試合で使うことが多い？,1.45,"{""card:deck_def_down"": 1}",,True
+D01,down,転倒（ダウン）・固有技,usage,普段使うヒーローで、HA・DA・ダッシュ中の接触など、カード以外の技による転倒を狙うことが多い？,1.15,"{""down:opener"": 1}",,True
+D03,down,転倒（ダウン）・カード,skill,攻撃カードで敵を転倒させた後、通常攻撃・DA・HA・別のカードなどで追撃するか、別の行動を取るか判断できる？,0.8,"{""trait:flex"": 0.5, ""trait:skill"": 0.5}",,True
+D02,down,転倒（ダウン）・連携,style,敵が転倒した場面では、キルの追撃より味方の援護やポータル確保を選ぶことが多い？,1.55,"{""trait:objective"": 0.55, ""trait:team"": 0.25, ""trait:control"": 0.2}",,True
+T01,team,連携・立ち回り,style,自分の生存用の回復（置き回など）とは別に、味方のために回復や援護を優先することが多い？,1.1,"{""trait:team"": 0.6, ""trait:support"": 0.4}",,True
+T02,team,連携・立ち回り,style,自分でキルを取りに行くより、妨害やサポートで味方の攻撃機会を作ることが多い？,1.25,"{""trait:control"": 0.5, ""trait:disrupt"": 0.3, ""trait:support"": 0.2}",,True

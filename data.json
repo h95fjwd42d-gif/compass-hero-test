@@ -6734,7 +6734,7 @@
       "name": "ソル＝バッドガイ",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-011.webp",
       "traits": {
         "melee": 1.4,
         "aggressive": 3.5,
@@ -6826,7 +6826,7 @@
       "name": "ディズィー",
       "role": "ガンナー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-012.webp",
       "traits": {
         "range": 3.5,
         "objective": 4.0,
@@ -7109,7 +7109,7 @@
       "name": "初音 ミク",
       "role": "スプリンター",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-015.webp",
       "traits": {
         "mobility": 3.5,
         "heal": 4.3,
@@ -7412,7 +7412,7 @@
       "name": "リュウ",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-018.webp",
       "traits": {
         "melee": 4.0,
         "burst": 3.5,
@@ -7503,7 +7503,7 @@
       "name": "春麗",
       "role": "スプリンター",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-019.webp",
       "traits": {
         "mobility": 3.5,
         "melee": 3.5,
@@ -7975,7 +7975,7 @@
       "name": "エミリア",
       "role": "ガンナー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-024.webp",
       "traits": {
         "range": 3.5,
         "heal": 4.5,
@@ -8079,7 +8079,7 @@
       "name": "レム",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-025.webp",
       "traits": {
         "melee": 3.5,
         "burst": 4.3,
@@ -8169,7 +8169,7 @@
       "name": "カイ＝キスク",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-026.webp",
       "traits": {
         "melee": 3.5,
         "mobility": 3.5,
@@ -8364,7 +8364,7 @@
       "name": "鏡音リン",
       "role": "ガンナー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-028.webp",
       "traits": {
         "range": 3.5,
         "support": 4.4,
@@ -8468,7 +8468,7 @@
       "name": "鏡音レン",
       "role": "タンク",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-029.webp",
       "traits": {
         "tank": 3.5,
         "heal": 4.1,
@@ -8661,7 +8661,7 @@
       "name": "ザック＆レイチェル",
       "role": "スプリンター",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-031.webp",
       "traits": {
         "mobility": 3.5,
         "sustain": 3.5,
@@ -8849,7 +8849,7 @@
       "name": "モノクマ",
       "role": "タンク",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-033.webp",
       "traits": {
         "tank": 3.5,
         "debuff": 4.4,
@@ -9048,7 +9048,7 @@
       "name": "アクア",
       "role": "スプリンター",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-035.webp",
       "traits": {
         "mobility": 3.5,
         "guardbreak": 4.2,
@@ -9143,7 +9143,7 @@
       "name": "めぐみん",
       "role": "タンク",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-036.webp",
       "traits": {
         "tank": 3.5,
         "ultimate": 4.5,
@@ -9337,7 +9337,7 @@
       "name": "リヴァイ",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-038.webp",
       "traits": {
         "mobility": 3.5,
         "melee": 3.9,
@@ -9621,7 +9621,7 @@
       "name": "猫宮ひなた",
       "role": "ガンナー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-041.webp",
       "traits": {
         "range": 4.0,
         "melee": 3.8,
@@ -9727,7 +9727,7 @@
       "name": "岡部倫太郎",
       "role": "ガンナー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-042.webp",
       "traits": {
         "range": 3.5,
         "melee": 3.7,
@@ -9912,7 +9912,7 @@
       "name": "セイバーオルタ",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-044.webp",
       "traits": {
         "melee": 4.0,
         "burst": 3.5,
@@ -9999,7 +9999,7 @@
       "name": "ギルガメッシュ",
       "role": "ガンナー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-045.webp",
       "traits": {
         "range": 4.5,
         "sustain": 3.5,
@@ -10282,7 +10282,7 @@
       "name": "佐藤四郎兵衛忠信",
       "role": "タンク",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-048.webp",
       "traits": {
         "tank": 3.5,
         "counter": 4.1,
@@ -10384,7 +10384,7 @@
       "name": "アイズ・ヴァレンシュタイン",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-049.webp",
       "traits": {
         "melee": 3.5,
         "mobility": 4.0,
@@ -10575,7 +10575,7 @@
       "name": "ノクティス・ルシス・チェラム",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-051.webp",
       "traits": {
         "mobility": 3.5,
         "melee": 3.5,
@@ -10770,7 +10770,7 @@
       "name": "中島敦",
       "role": "スプリンター",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-053.webp",
       "traits": {
         "mobility": 3.5,
         "melee": 4.1,
@@ -10868,7 +10868,7 @@
       "name": "芥川龍之介",
       "role": "ガンナー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-054.webp",
       "traits": {
         "range": 4.0,
         "sustain": 3.5,
@@ -11051,7 +11051,7 @@
       "name": "ライザリン・シュタウト",
       "role": "タンク",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-056.webp",
       "traits": {
         "tank": 3.5,
         "control": 3.5,
@@ -11244,7 +11244,7 @@
       "name": "ジョーカー",
       "role": "スプリンター",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-058.webp",
       "traits": {
         "mobility": 3.5,
         "objective": 3.5,
@@ -11436,7 +11436,7 @@
       "name": "アインズ・ウール・ゴウン",
       "role": "ガンナー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-060.webp",
       "traits": {
         "range": 4.3,
         "skill": 3.5,
@@ -11621,7 +11621,7 @@
       "name": "キリト",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-062.webp",
       "traits": {
         "melee": 4.0,
         "sustain": 3.5,
@@ -11710,7 +11710,7 @@
       "name": "アスナ",
       "role": "スプリンター",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-063.webp",
       "traits": {
         "mobility": 3.5,
         "melee": 3.7,
@@ -11982,7 +11982,7 @@
       "name": "ラム",
       "role": "スプリンター",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-066.webp",
       "traits": {
         "mobility": 3.5,
         "melee": 3.8,
@@ -12084,7 +12084,7 @@
       "name": "2B",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-067.webp",
       "traits": {
         "melee": 3.5,
         "range": 3.5,
@@ -12269,7 +12269,7 @@
       "name": "リムル＝テンペスト",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-069.webp",
       "traits": {
         "melee": 3.5,
         "flex": 3.5,
@@ -12464,7 +12464,7 @@
       "name": "御坂美琴",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-071.webp",
       "traits": {
         "melee": 3.5,
         "range": 3.5,
@@ -12558,7 +12558,7 @@
       "name": "アクセラレータ",
       "role": "ガンナー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-072.webp",
       "traits": {
         "range": 4.0,
         "counter": 4.2,
@@ -12747,7 +12747,7 @@
       "name": "ベル・クラネル",
       "role": "スプリンター",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-074.webp",
       "traits": {
         "mobility": 4.0,
         "melee": 4.0,
@@ -12841,7 +12841,7 @@
       "name": "ロキシー・ミグルディア",
       "role": "ガンナー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-075.webp",
       "traits": {
         "range": 4.2,
         "control": 3.9,
@@ -13032,7 +13032,7 @@
       "name": "ロックマン.EXE＆光熱斗",
       "role": "ガンナー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-077.webp",
       "traits": {
         "range": 3.7,
         "flex": 3.9,
@@ -13222,7 +13222,7 @@
       "name": "デンジ",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-079.webp",
       "traits": {
         "melee": 4.1,
         "sustain": 4.2,
@@ -13322,7 +13322,7 @@
       "name": "パワー",
       "role": "スプリンター",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-080.webp",
       "traits": {
         "mobility": 4.0,
         "melee": 4.2,
@@ -13515,7 +13515,7 @@
       "name": "シノン",
       "role": "ガンナー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-082.webp",
       "traits": {
         "range": 4.3,
         "burst": 4.0,
@@ -13600,9 +13600,9 @@
     {
       "id": 83,
       "name": "ターニャ・デグレチャフ",
-      "role": "ガンナー",
+      "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-083.webp",
       "traits": {
         "range": 4.2,
         "sustain": 2.2,
@@ -13891,7 +13891,7 @@
       "name": "ボンドルド",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-086.webp",
       "traits": {
         "melee": 3.5,
         "sustain": 4.1,
@@ -14076,7 +14076,7 @@
       "name": "ゴン＝フリークス",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-088.webp",
       "traits": {
         "melee": 3.5,
         "burst": 3.5,
@@ -14174,7 +14174,7 @@
       "name": "キルア＝ゾルディック",
       "role": "スプリンター",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-089.webp",
       "traits": {
         "mobility": 3.9,
         "stun": 4.5,
@@ -14379,7 +14379,7 @@
       "name": "上条当麻",
       "role": "スプリンター",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-091.webp",
       "traits": {
         "mobility": 3.5,
         "melee": 4.3,
@@ -14574,7 +14574,7 @@
       "name": "シャドウ",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-093.webp",
       "traits": {
         "melee": 3.5,
         "burst": 4.1,
@@ -14669,7 +14669,7 @@
       "name": "ポプ子＆ピピ美",
       "role": "タンク",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-094.webp",
       "traits": {
         "tank": 3.5,
         "control": 4.0,
@@ -14863,7 +14863,7 @@
       "name": "セイバー（リチャードⅠ世）",
       "role": "スプリンター",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-096.webp",
       "traits": {
         "mobility": 3.5,
         "range": 3.8,
@@ -14956,7 +14956,7 @@
       "name": "アーチャー（ギルガメッシュ）",
       "role": "アタッカー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-097.webp",
       "traits": {
         "melee": 3.5,
         "card": 3.8,
@@ -15058,7 +15058,7 @@
       "name": "ランサー（エルキドゥ）",
       "role": "ガンナー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-098.webp",
       "traits": {
         "range": 3.5,
         "heal": 4.3,
@@ -15258,7 +15258,7 @@
       "name": "レゼ",
       "role": "ガンナー",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-100.webp",
       "traits": {
         "range": 4.5,
         "zone": 4.4,
@@ -15455,7 +15455,7 @@
       "name": "一姫",
       "role": "スプリンター",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-102.webp",
       "traits": {
         "mobility": 4.2,
         "late": 4.2,
@@ -15561,7 +15561,7 @@
       "name": "エドワード・エルリック",
       "role": "タンク",
       "portrait": null,
-      "cardGuide": null,
+      "cardGuide": "card-guides/hero-103.webp",
       "traits": {
         "tank": 3.5,
         "objective": 4.5,

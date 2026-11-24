@@ -140,3 +140,72 @@
 /* v9.10.2 Xポスト用の明瞭なアクション */
 .result-actions .x-share-button{background:#14181f;color:#fff;border-color:#14181f;font-weight:800}
 .result-actions .x-share-button:hover,.result-actions .x-share-button:focus-visible{background:#303a49;border-color:#303a49;color:#fff}
+
+/* v9.10.4 ability research overlay: collapsed by default; does not alter scoring */
+.ability-research-panel{margin:12px 0 16px;padding:12px 15px;border:1px solid rgba(91,137,165,.28);border-radius:13px;background:rgba(220,237,246,.14);font-size:.92rem}
+.ability-research-panel summary{cursor:pointer;font-weight:700;line-height:1.55}
+.ability-research-panel summary:focus-visible{outline:2px solid #2780a3;outline-offset:5px}
+.ability-research-body{padding-top:11px;line-height:1.65}
+.ability-research-item{padding:8px 0;border-top:1px solid rgba(91,137,165,.18)}
+.ability-research-item p{margin:2px 0 0;overflow-wrap:anywhere}
+.ability-research-name{margin:2px 0 10px;font-size:1rem}
+.ability-research-warning{font-size:.88em;opacity:.88;margin:10px 0}
+
+/* v9.10.5 optional HA/HS A/B research panel, distinct from official 30-question result */
+.ha-hs-lab{margin:23px 0;background:#f6fbfe;border:1px solid #b8d4e3;border-radius:16px;overflow:hidden}
+.ha-hs-lab>summary{cursor:pointer;font-size:15px;font-weight:750;color:#235470;padding:16px 18px}
+.ha-hs-lab-body{padding:0 18px 17px;font-size:13px;color:#385971;line-height:1.65}
+.ha-hs-lab-question{display:block;background:#fff;border:1px solid #dbe7ed;border-radius:12px;padding:13px;margin:12px 0}
+.ha-hs-lab-question>b{display:block;font-size:13px;color:#23465b}
+.ha-hs-lab-question>small{display:block;color:#688598;font-size:11px;margin-top:6px}
+.ha-hs-lab-question select{display:block;width:100%;max-width:360px;margin-top:9px;padding:10px;border-radius:8px;border:1px solid #aec4d1;background:#fff;color:#28465a;font-size:13px}
+#ha-hs-lab-comparison{margin-top:13px;padding:12px;border:1px solid #cbdce8;background:#fff;border-radius:12px}
+.ha-hs-lab-compare-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.ha-hs-lab-compare-grid h4{margin:0 0 7px;font-size:13px;color:#235470}
+.ha-hs-lab-compare-grid ol{padding-left:23px;margin:0}
+.ha-hs-lab-compare-grid li{padding:4px 0;overflow-wrap:anywhere}
+.ha-hs-lab-compare-grid small{font-size:10px;color:#6b8191}
+.ha-hs-lab-caution{font-size:11px;color:#698496}
+@media(max-width:690px){.ha-hs-lab-compare-grid{grid-template-columns:1fr}.ha-hs-lab>summary{font-size:13px}}
+
+/* Light 20 beta */
+.light-track{margin:24px 0 36px;padding:20px;border:1px solid var(--border);border-radius:18px;background:white}.light-ranks{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.light-ranks details{font-size:11px}.light-ranks ul{padding-left:16px}.light-track .feedback-actions{margin-top:12px;flex-wrap:wrap}.light-track .recommend-name{overflow-wrap:anywhere}@media(max-width:690px){.light-ranks{grid-template-columns:repeat(2,minmax(0,1fr))}.light-track{padding:12px}.light-ranks .recommend-image{height:136px}}
+
+/* Stage29 read-only results and library */
+.result-feature {margin:.7rem 0 .55rem; padding:.7rem .8rem; background:#f2f9fc; border-radius:10px; min-width:0;}
+.result-feature b {font-size:12px;color:#285d7a;}
+.result-feature p {font-size:13px;line-height:1.65;margin:.35rem 0 0;color:#31556c;overflow-wrap:anywhere;}
+.result-evidence {font-size:12px;line-height:1.65;margin:.5rem 0;}
+.result-evidence summary {font-weight:700;cursor:pointer;color:#226b96;}
+.result-evidence ul {padding-left:1.25rem;margin:.5rem 0;}
+.result-evidence li {margin:.4rem 0;}
+.result-evidence small {display:block;color:#557487;font-size:11px;}
+.library-note {font-size:11px;color:#587589;}
+.library-jump {font:inherit;font-size:12px;font-weight:700;color:#226b96;background:#fff;border:1px solid #b9dbe9;border-radius:9px;padding:9px 12px;margin-top:5px;max-width:100%;cursor:pointer;}
+.library-hero-head {display:grid;grid-template-columns:minmax(75px,125px) minmax(0,1fr);gap:16px;align-items:center;clear:both;padding:6px 0 15px;}
+.library-portrait {height:150px;background:#eff9fd;border-radius:10px;overflow:hidden;display:grid;place-items:center;}
+.library-portrait img {width:100%;height:100%;object-fit:contain;}
+.library-hero-head h2 {font-size:21px;margin:.3rem 0;overflow-wrap:anywhere;}
+.library-hero-head p,.library-pane p {color:#355971;line-height:1.8;overflow-wrap:anywhere;}
+.library-tabs {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;margin:0 0 16px;border-bottom:1px solid #d6e9f2;padding-bottom:7px;}
+.roster-detail .library-tabs button {float:none;border-radius:8px;padding:10px 4px;font-size:12px;background:#f1f8fc;color:#38647f;}
+.roster-detail .library-tabs button[aria-selected="true"] {background:#246d98;color:white;font-weight:700;}
+.library-pane h3 {font-size:16px;margin:.5rem 0;}
+.library-sources {font-size:12px;line-height:1.65;border-top:1px solid #dceaf2;padding:10px 0;overflow-wrap:anywhere;}
+.library-sources summary {cursor:pointer;color:#246d98;font-weight:700;}
+.library-sources ul {padding-left:1.3em;}
+.library-sources a {color:#1b638c;}
+.library-empty {grid-column:1/-1;}
+@media(max-width:480px){.library-detail{padding:14px}.library-hero-head{grid-template-columns:82px minmax(0,1fr);gap:10px}.library-portrait{height:112px}.library-hero-head h2{font-size:17px}.library-tabs button{min-height:44px}.result-feature{padding:8px}.result-feature p{font-size:12px}.library-jump{min-height:44px}.roster-controls select{width:100%;}.library-pane p{font-size:13px;}}
+
+/* Research disclaimer */
+.roster-head .research-disclaimer,.roster-detail .research-disclaimer{color:#6b7280;font-size:12px;font-weight:400;line-height:1.65;margin:8px 0 12px;overflow-wrap:anywhere;}
+
+/* Stage70 role ranking */
+.role-top3{margin:24px 0;padding:16px;border:1px solid #9ca3af55;border-radius:12px}.role-top3 summary{cursor:pointer;font-weight:700}.role-top3-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}.role-top3-grid section{border:1px solid #9ca3af55;border-radius:8px;padding:12px}.role-top3-grid li{margin:6px 0;overflow-wrap:anywhere}.role-top3-grid small{color:#6b7280}@media(max-width:600px){.role-top3-grid{grid-template-columns:1fr}}
+
+/* Stage71: role list portrait presentation only */
+.role-top3-entry{display:flex;align-items:center;gap:9px;min-width:0}.role-top3-thumb{flex:0 0 42px;height:58px;background:#edf6ff;border-radius:6px;overflow:hidden;display:flex;align-items:center;justify-content:center}.role-top3-thumb img{width:100%;height:100%;object-fit:contain}.role-top3-name{flex:1;min-width:0;overflow-wrap:anywhere}.role-top3-name small{display:block}.role-top3-entry strong{flex-shrink:0;font-variant-numeric:tabular-nums}.role-top3-thumb .hero-placeholder{min-height:0;font-size:10px;width:100%;height:100%}.role-top3-thumb .placeholder-label,.role-top3-thumb .placeholder-number{display:none}
+
+/* Stage71 display-only rename */
+.mode-card strong .mode-recommended{font-size:11px;font-weight:700;color:#16803d;letter-spacing:0;white-space:nowrap;vertical-align:middle;margin-left:4px;}

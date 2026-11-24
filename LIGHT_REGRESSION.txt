@@ -1,0 +1,48 @@
+{
+  "runs": 160,
+  "ranked": {
+    "personality": 159,
+    "combat": 127,
+    "appearance": 104
+  },
+  "full5": {
+    "personality": 159,
+    "combat": 127,
+    "appearance": 104
+  },
+  "rankedCount": {
+    "personality": 4402,
+    "combat": 6047,
+    "appearance": 3330
+  },
+  "specialCounts": {
+    "Q394": 42,
+    "Q395": 22
+  },
+  "uniqueTop": {
+    "personality": 33,
+    "combat": 24,
+    "appearance": 13
+  },
+  "targetResults": {
+    "personality": {
+      "eligible": 86,
+      "top5": 64,
+      "strictTop5": 52,
+      "shown": 86
+    },
+    "combat": {
+      "eligible": 104,
+      "top5": 36,
+      "strictTop5": 10,
+      "shown": 93
+    },
+    "appearance": {
+      "eligible": 104,
+      "top5": 36,
+      "strictTop5": 14,
+      "shown": 77
+    }
+  }
+}
+PASS: 20問、原文、再開、戻る、特殊除外、独立性、最終4回答で順位不変

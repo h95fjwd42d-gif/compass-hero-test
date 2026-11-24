@@ -1,0 +1,1 @@
+PASS Chromium DOM fixture 390px (mock localStorage): 20問、保存再開、前問、最終質問、3軸TOP5、図鑑、再読込、全不明保留、ガチ開始。JS例外0。

@@ -1,0 +1,1178 @@
+{
+  "sprinter": {
+    "before": {
+      "history": [
+        {
+          "id": "EX00",
+          "answer": "yes"
+        },
+        {
+          "id": "EX01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "R01",
+          "answer": "yes"
+        },
+        {
+          "id": "R02",
+          "answer": "unknown"
+        },
+        {
+          "id": "R03",
+          "answer": "unknown"
+        },
+        {
+          "id": "R04",
+          "answer": "unknown"
+        },
+        {
+          "id": "P01",
+          "answer": "yes"
+        },
+        {
+          "id": "F03",
+          "answer": "yes"
+        },
+        {
+          "id": "D03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "K01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AU01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR01",
+          "answer": "yes"
+        },
+        {
+          "id": "AS01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AK05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR02",
+          "answer": "yes"
+        },
+        {
+          "id": "F08",
+          "answer": "sometimes"
+        },
+        {
+          "id": "T02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AH01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F02",
+          "answer": "unknown"
+        },
+        {
+          "id": "P02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AT05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F01",
+          "answer": "yes"
+        },
+        {
+          "id": "AP07",
+          "answer": "sometimes"
+        },
+        {
+          "id": "T01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "D01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AK03",
+          "answer": "sometimes"
+        }
+      ],
+      "top": [
+        [
+          "上条当麻",
+          64.7
+        ],
+        [
+          "一姫",
+          64.7
+        ],
+        [
+          "アスナ",
+          64.4
+        ],
+        [
+          "輝龍院きらら",
+          64.3
+        ],
+        [
+          "零夜",
+          64.1
+        ]
+      ]
+    },
+    "after": {
+      "history": [
+        {
+          "id": "EX00",
+          "answer": "yes"
+        },
+        {
+          "id": "EX01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "R01",
+          "answer": "yes"
+        },
+        {
+          "id": "R02",
+          "answer": "unknown"
+        },
+        {
+          "id": "R03",
+          "answer": "unknown"
+        },
+        {
+          "id": "R04",
+          "answer": "unknown"
+        },
+        {
+          "id": "P01",
+          "answer": "yes"
+        },
+        {
+          "id": "F03",
+          "answer": "yes"
+        },
+        {
+          "id": "K01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AU01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR01",
+          "answer": "yes"
+        },
+        {
+          "id": "AS01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "D01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AK05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AH01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F02",
+          "answer": "unknown"
+        },
+        {
+          "id": "T02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F08",
+          "answer": "sometimes"
+        },
+        {
+          "id": "P02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AT05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "P04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "T01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AK04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AK03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO04",
+          "answer": "sometimes"
+        }
+      ],
+      "top": [
+        [
+          "輝龍院きらら",
+          64
+        ],
+        [
+          "零夜",
+          63.9
+        ],
+        [
+          "Voidoll",
+          63.6
+        ],
+        [
+          "ニコラ テスラ",
+          63.6
+        ],
+        [
+          "十文字アタリ",
+          63.3
+        ]
+      ]
+    }
+  },
+  "multi": {
+    "before": {
+      "history": [
+        {
+          "id": "EX00",
+          "answer": "yes"
+        },
+        {
+          "id": "EX01",
+          "answer": "yes"
+        },
+        {
+          "id": "R01",
+          "answer": "yes"
+        },
+        {
+          "id": "R02",
+          "answer": "yes"
+        },
+        {
+          "id": "R03",
+          "answer": "yes"
+        },
+        {
+          "id": "R04",
+          "answer": "yes"
+        },
+        {
+          "id": "P01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "D03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AH01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "K01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "K06",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AK04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "T01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AS01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "P02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F08",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AT05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "P05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AT01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AU02",
+          "answer": "sometimes"
+        }
+      ],
+      "top": [
+        [
+          "マリア＝S＝レオンブルク",
+          59
+        ],
+        [
+          "ザック＆レイチェル",
+          59
+        ],
+        [
+          "狐ヶ咲 甘色",
+          59
+        ],
+        [
+          "アル・ダハブ＝アルカティア",
+          59
+        ],
+        [
+          "アミスター＝バランディン",
+          59
+        ]
+      ]
+    },
+    "after": {
+      "history": [
+        {
+          "id": "EX00",
+          "answer": "yes"
+        },
+        {
+          "id": "EX01",
+          "answer": "yes"
+        },
+        {
+          "id": "R01",
+          "answer": "yes"
+        },
+        {
+          "id": "R02",
+          "answer": "yes"
+        },
+        {
+          "id": "R03",
+          "answer": "yes"
+        },
+        {
+          "id": "R04",
+          "answer": "yes"
+        },
+        {
+          "id": "P01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AH01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "K01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AU01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "T01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AS01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AK04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "D01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "P02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F08",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AT05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AT02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "P05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AK03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO02",
+          "answer": "sometimes"
+        }
+      ],
+      "top": [
+        [
+          "ジャンヌ ダルク",
+          59.1
+        ],
+        [
+          "初音 ミク",
+          59.1
+        ],
+        [
+          "トマス",
+          59.1
+        ],
+        [
+          "佐藤四郎兵衛忠信",
+          59.1
+        ],
+        [
+          "アミスター＝バランディン",
+          59.1
+        ]
+      ]
+    }
+  },
+  "novice": {
+    "before": {
+      "history": [
+        {
+          "id": "EX00",
+          "answer": "unknown"
+        },
+        {
+          "id": "EX01",
+          "answer": "unknown"
+        },
+        {
+          "id": "AO01",
+          "answer": "yes"
+        },
+        {
+          "id": "AO02",
+          "answer": "yes"
+        },
+        {
+          "id": "AO03",
+          "answer": "yes"
+        },
+        {
+          "id": "AO04",
+          "answer": "yes"
+        },
+        {
+          "id": "AO05",
+          "answer": "yes"
+        },
+        {
+          "id": "AO06",
+          "answer": "yes"
+        },
+        {
+          "id": "AO12",
+          "answer": "yes"
+        },
+        {
+          "id": "AO16",
+          "answer": "yes"
+        },
+        {
+          "id": "AO09",
+          "answer": "yes"
+        },
+        {
+          "id": "AO08",
+          "answer": "yes"
+        },
+        {
+          "id": "F02",
+          "answer": "unknown"
+        },
+        {
+          "id": "P01",
+          "answer": "unknown"
+        },
+        {
+          "id": "AT05",
+          "answer": "unknown"
+        },
+        {
+          "id": "AF05",
+          "answer": "unknown"
+        },
+        {
+          "id": "P02",
+          "answer": "unknown"
+        },
+        {
+          "id": "T01",
+          "answer": "unknown"
+        },
+        {
+          "id": "F01",
+          "answer": "unknown"
+        },
+        {
+          "id": "P05",
+          "answer": "unknown"
+        },
+        {
+          "id": "AO13",
+          "answer": "yes"
+        },
+        {
+          "id": "AO15",
+          "answer": "yes"
+        },
+        {
+          "id": "AO14",
+          "answer": "yes"
+        },
+        {
+          "id": "AO07",
+          "answer": "yes"
+        },
+        {
+          "id": "AO10",
+          "answer": "yes"
+        },
+        {
+          "id": "AO11",
+          "answer": "yes"
+        },
+        {
+          "id": "F05",
+          "answer": "unknown"
+        },
+        {
+          "id": "AT03",
+          "answer": "unknown"
+        },
+        {
+          "id": "AF09",
+          "answer": "unknown"
+        },
+        {
+          "id": "P06",
+          "answer": "unknown"
+        }
+      ],
+      "top": [
+        [
+          "ソーン＝ユーリエフ",
+          55
+        ],
+        [
+          "ロキシー・ミグルディア",
+          54.9
+        ],
+        [
+          "天空王 ぶれいずどらごん",
+          54.7
+        ],
+        [
+          "†ファースト†",
+          54.7
+        ],
+        [
+          "トマス",
+          54.6
+        ]
+      ]
+    },
+    "after": {
+      "history": [
+        {
+          "id": "EX00",
+          "answer": "unknown"
+        },
+        {
+          "id": "EX01",
+          "answer": "unknown"
+        },
+        {
+          "id": "AO01",
+          "answer": "yes"
+        },
+        {
+          "id": "AO02",
+          "answer": "yes"
+        },
+        {
+          "id": "AO03",
+          "answer": "yes"
+        },
+        {
+          "id": "AO04",
+          "answer": "yes"
+        },
+        {
+          "id": "AO05",
+          "answer": "yes"
+        },
+        {
+          "id": "AO06",
+          "answer": "yes"
+        },
+        {
+          "id": "AO12",
+          "answer": "yes"
+        },
+        {
+          "id": "AO16",
+          "answer": "yes"
+        },
+        {
+          "id": "AO09",
+          "answer": "yes"
+        },
+        {
+          "id": "AO08",
+          "answer": "yes"
+        },
+        {
+          "id": "F02",
+          "answer": "unknown"
+        },
+        {
+          "id": "P01",
+          "answer": "unknown"
+        },
+        {
+          "id": "AT05",
+          "answer": "unknown"
+        },
+        {
+          "id": "AF05",
+          "answer": "unknown"
+        },
+        {
+          "id": "P02",
+          "answer": "unknown"
+        },
+        {
+          "id": "T01",
+          "answer": "unknown"
+        },
+        {
+          "id": "AF01",
+          "answer": "unknown"
+        },
+        {
+          "id": "P05",
+          "answer": "unknown"
+        },
+        {
+          "id": "AO13",
+          "answer": "yes"
+        },
+        {
+          "id": "AO15",
+          "answer": "yes"
+        },
+        {
+          "id": "AO07",
+          "answer": "yes"
+        },
+        {
+          "id": "AO14",
+          "answer": "yes"
+        },
+        {
+          "id": "AO10",
+          "answer": "yes"
+        },
+        {
+          "id": "AO11",
+          "answer": "yes"
+        },
+        {
+          "id": "F05",
+          "answer": "unknown"
+        },
+        {
+          "id": "F01",
+          "answer": "unknown"
+        },
+        {
+          "id": "AF09",
+          "answer": "unknown"
+        },
+        {
+          "id": "AT02",
+          "answer": "unknown"
+        }
+      ],
+      "top": [
+        [
+          "ソーン＝ユーリエフ",
+          55
+        ],
+        [
+          "天空王 ぶれいずどらごん",
+          54.9
+        ],
+        [
+          "ロキシー・ミグルディア",
+          54.9
+        ],
+        [
+          "アクア",
+          54.7
+        ],
+        [
+          "ディズィー",
+          54.6
+        ]
+      ]
+    }
+  },
+  "single": {
+    "before": {
+      "history": [
+        {
+          "id": "EX00",
+          "answer": "yes"
+        },
+        {
+          "id": "EX01",
+          "answer": "no"
+        },
+        {
+          "id": "R01",
+          "answer": "unknown"
+        },
+        {
+          "id": "R02",
+          "answer": "unknown"
+        },
+        {
+          "id": "R03",
+          "answer": "yes"
+        },
+        {
+          "id": "R04",
+          "answer": "unknown"
+        },
+        {
+          "id": "P01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "D03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "K01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AU01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AH01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AK05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AS01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "T01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "P02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F08",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AT05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AP07",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AT01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "D01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR06",
+          "answer": "sometimes"
+        }
+      ],
+      "top": [
+        [
+          "エミリア",
+          58.9
+        ],
+        [
+          "鏡音リン",
+          58.9
+        ],
+        [
+          "イスタカ",
+          58.9
+        ],
+        [
+          "糸廻 輪廻",
+          58.9
+        ],
+        [
+          "アクセラレータ",
+          58.9
+        ]
+      ]
+    },
+    "after": {
+      "history": [
+        {
+          "id": "EX00",
+          "answer": "yes"
+        },
+        {
+          "id": "EX01",
+          "answer": "no"
+        },
+        {
+          "id": "R01",
+          "answer": "unknown"
+        },
+        {
+          "id": "R02",
+          "answer": "unknown"
+        },
+        {
+          "id": "R03",
+          "answer": "yes"
+        },
+        {
+          "id": "R04",
+          "answer": "unknown"
+        },
+        {
+          "id": "P01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO03",
+          "answer": "sometimes"
+        },
+        {
+          "id": "K01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "D01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AH01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AU01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AK05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AO04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "T01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F08",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AS01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "P02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "F01",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AT05",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AP07",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AT02",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AK04",
+          "answer": "sometimes"
+        },
+        {
+          "id": "AR06",
+          "answer": "sometimes"
+        }
+      ],
+      "top": [
+        [
+          "エミリア",
+          59
+        ],
+        [
+          "鏡音リン",
+          59
+        ],
+        [
+          "メグメグ",
+          58.9
+        ],
+        [
+          "イスタカ",
+          58.9
+        ],
+        [
+          "糸廻 輪廻",
+          58.9
+        ]
+      ]
+    }
+  }
+}

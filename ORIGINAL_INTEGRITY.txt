@@ -1,0 +1,7 @@
+変更済み元ファイル: index.html, light.js, app.js
+practical.js/practical-adaptive.js/data.js/data.json/core.js: SHA256一致
+practical.js d0e6486ad6cc60fcc6d7863a9ee041c84275e42ef033be3ad7a6d4b57399a22a
+practical-adaptive.js 98a96794c52dc9cc38190f4607be8491a38d656bd1750697747236d88107679b
+data.js 68c00c2219fe7f1ffcbe4990b9f82308920b4a36a026a1299e8dd1ef6da62215
+data.json 2041d0a6cce7ba0241fa066dec82f71ccf6395f003664bf4643f2ce9192db8b3
+core.js 2d8e2f8be02fbb04b23aa4d2e43fc5ba462959ecf5cf699a72a575fb6ad91099

@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "pool": 106,
+  "legacyQ": 30,
+  "adaptiveQuestions": 30,
+  "readyInSim": 250,
+  "casualPreferenceQuestions": 16,
+  "exampleRoutes": [
+    "EX00,EX01,AO01,AO02,AO03,AO04,AO05,AO06,AO12,AO16,AO09,AO15,P01,F02,AT05,F03,AF09,P02,T02,P06,AO08,AO14,AO13,AO11,AO07,AO10,F05,T01,F01,AF05",
+    "EX00,EX01,R01,R02,R03,R04,P01,F03,AR03,K01,AR01,K06,AR04,AK05,D01,AH01,AR02,F08,AT02,F02,AS01,F05,P02,T02,P05,AT05,AO03,AK04,AU01,AO04",
+    "EX00,EX01,R01,R02,R03,R04,P01,F03,AK04,AS01,AU01,AK05,D01,AR03,AH01,F02,AR04,T01,F08,AR02,P05,F01,T02,P02,AT05,AO02,K06,AO04,K03,AO03"
+  ],
+  "sniperTop5": [
+    "アクセラレータ",
+    "ターニャ・デグレチャフ",
+    "メグメグ",
+    "猫宮ひなた",
+    "アインズ・ウール・ゴウン"
+  ],
+  "objectiveTop5": [
+    "Voidoll",
+    "某〈なにがし〉",
+    "零夜",
+    "輝龍院きらら",
+    "十文字アタリ"
+  ]
+}

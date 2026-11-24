@@ -1,0 +1,1 @@
+PASS card model: 104 hero profiles, source corrections, ability/card distinction, stun-wave priority, no extra hard exclusions, Ichihime/Chi-chan regression

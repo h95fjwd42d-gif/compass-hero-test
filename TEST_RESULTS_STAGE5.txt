@@ -1,0 +1,21 @@
+$ node test-v9105-lab.js
+PASS v9.10.5: original 30 questions + 104 heroes, friend baseline TOP5 identical, neutral beta unchanged; HA eligible 17 HS eligible 19 random 800 A/B sessions
+
+EXIT=0
+
+$ node test-v97.js
+PASS v9.7 question intentions: 30 practical + all classic pools + 104 final question profiles; session engines unchanged
+
+EXIT=0
+
+$ node test-ability-display-v9104.js
+PASS v9.10.4 ability overlay 104 heroes, scoring disabled, base algorithm unchanged
+
+EXIT=0
+
+$ python /mnt/data/test_v9105_browser.py
+BROWSER PASS: 390px; 30 answers original TOP5; optional HA/HS 2 questions; comparison; normal ranking retained; no JS errors
+ORIGINAL: ['かけだし勇者', 'ディズィー', '鏡音リン', '某〈なにがし〉', 'ランサー（エルキドゥ）']
+NEW LAB: ['かけだし勇者 65.6 （旧65.6 / 補正+0.00）', '鏡音リン 65.3 （旧65.3 / 補正+0.00）', 'ディズィー 64.7 （旧65.4 / 補正-0.75）', 'リリカ 64.5 （旧63.9 / 補正+0.55）', 'エミリア 64.5 （旧64.5 / 補正+0.00）']
+
+EXIT=0

@@ -205,7 +205,7 @@
      const v=Number(hero.cardTraits[tag]);r=v>=3.5?Math.min(1.1,.8+(v-3.5)*.2):v>=2?.26:0;
     }
    }else if(kind==='down'){
-    const v=tag==='card'?cardDownProfile(hero)?.score:DOWN_PROFILES[hero.id]?.[tag];
+    const v=tag==='card'?cardDownProfile(hero)?.score:tag==='followup'?(FOLLOWUP_ONLY_PROFILES[hero.id]?.followup??DOWN_PROFILES[hero.id]?.followup):DOWN_PROFILES[hero.id]?.[tag];
     // If route not researched, remain neutral; only the card tag reads CARD_DOWN_PROFILES.
     if(Number.isFinite(v))r=Math.max(0,Math.min(1,v));
    }else if(kind==='tradeoff'&&tag==='damageOverDurability'){

@@ -1,0 +1,436 @@
+[
+  {
+    "name": "機動・攻撃",
+    "old": {
+      "combat": [
+        "ベル・クラネル",
+        "パワー",
+        "ヴィーナス ポロロッチョ",
+        "アイズ・ヴァレンシュタイン",
+        "マリア＝S＝レオンブルク"
+      ],
+      "personality": "独立順位なし",
+      "appearance": [
+        "レゼ",
+        "十文字アタリ",
+        "深川まとい",
+        "かけだし勇者",
+        "レム"
+      ]
+    },
+    "new": {
+      "combat": [
+        "チーちゃん",
+        "ベル・クラネル",
+        "パワー",
+        "中島敦",
+        "ラム"
+      ],
+      "personality": [],
+      "appearance": []
+    },
+    "lightAnswers": [
+      {
+        "id": "Q079",
+        "answer": "no"
+      },
+      {
+        "id": "Q111",
+        "answer": "yes"
+      },
+      {
+        "id": "Q040",
+        "answer": "yes"
+      },
+      {
+        "id": "Q153",
+        "answer": "no"
+      },
+      {
+        "id": "Q270",
+        "answer": "no"
+      },
+      {
+        "id": "Q175",
+        "answer": "no"
+      },
+      {
+        "id": "Q302",
+        "answer": "no"
+      },
+      {
+        "id": "Q029",
+        "answer": "no"
+      },
+      {
+        "id": "Q337",
+        "answer": "no"
+      },
+      {
+        "id": "Q336",
+        "answer": "no"
+      },
+      {
+        "id": "Q359",
+        "answer": "no"
+      },
+      {
+        "id": "Q347",
+        "answer": "no"
+      },
+      {
+        "id": "Q352",
+        "answer": "no"
+      },
+      {
+        "id": "Q342",
+        "answer": "no"
+      },
+      {
+        "id": "Q368",
+        "answer": "no"
+      },
+      {
+        "id": "Q369",
+        "answer": "no"
+      },
+      {
+        "id": "Q366",
+        "answer": "no"
+      },
+      {
+        "id": "Q378",
+        "answer": "no"
+      },
+      {
+        "id": "Q422",
+        "answer": "no"
+      },
+      {
+        "id": "Q373",
+        "answer": "no"
+      }
+    ]
+  },
+  {
+    "name": "遠距離・支援",
+    "old": {
+      "combat": [
+        "エミリア",
+        "鏡音リン",
+        "トマス",
+        "ジャンヌ ダルク",
+        "リリカ"
+      ],
+      "personality": "独立順位なし",
+      "appearance": [
+        "レゼ",
+        "十文字アタリ",
+        "深川まとい",
+        "かけだし勇者",
+        "レム"
+      ]
+    },
+    "new": {
+      "combat": [
+        "エミリア",
+        "鏡音リン",
+        "ランサー（エルキドゥ）",
+        "リリカ",
+        "メルーニャ・ランチェルナ"
+      ],
+      "personality": [],
+      "appearance": []
+    },
+    "lightAnswers": [
+      {
+        "id": "Q079",
+        "answer": "yes"
+      },
+      {
+        "id": "Q111",
+        "answer": "no"
+      },
+      {
+        "id": "Q040",
+        "answer": "no"
+      },
+      {
+        "id": "Q153",
+        "answer": "no"
+      },
+      {
+        "id": "Q270",
+        "answer": "yes"
+      },
+      {
+        "id": "Q175",
+        "answer": "no"
+      },
+      {
+        "id": "Q302",
+        "answer": "no"
+      },
+      {
+        "id": "Q029",
+        "answer": "no"
+      },
+      {
+        "id": "Q337",
+        "answer": "no"
+      },
+      {
+        "id": "Q336",
+        "answer": "no"
+      },
+      {
+        "id": "Q359",
+        "answer": "no"
+      },
+      {
+        "id": "Q347",
+        "answer": "no"
+      },
+      {
+        "id": "Q352",
+        "answer": "no"
+      },
+      {
+        "id": "Q342",
+        "answer": "no"
+      },
+      {
+        "id": "Q368",
+        "answer": "no"
+      },
+      {
+        "id": "Q369",
+        "answer": "no"
+      },
+      {
+        "id": "Q366",
+        "answer": "no"
+      },
+      {
+        "id": "Q378",
+        "answer": "no"
+      },
+      {
+        "id": "Q422",
+        "answer": "no"
+      },
+      {
+        "id": "Q373",
+        "answer": "no"
+      }
+    ]
+  },
+  {
+    "name": "明るい人物・ポップな外見",
+    "old": {
+      "combat": [],
+      "personality": "独立順位なし",
+      "appearance": [
+        "リリカ",
+        "ヴィオレッタ ノワール",
+        "鏡音リン",
+        "ヴィーナス ポロロッチョ",
+        "初音 ミク"
+      ]
+    },
+    "new": {
+      "combat": [],
+      "personality": [
+        "キルア＝ゾルディック",
+        "マルコス’55",
+        "ラム",
+        "ゴン＝フリークス",
+        "みりぽゆ"
+      ],
+      "appearance": [
+        "リリカ",
+        "メグメグ",
+        "鏡音リン",
+        "ルルカ",
+        "ヴィオレッタ ノワール"
+      ]
+    },
+    "lightAnswers": [
+      {
+        "id": "Q079",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q111",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q040",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q153",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q270",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q175",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q302",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q087",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q337",
+        "answer": "yes"
+      },
+      {
+        "id": "Q336",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q359",
+        "answer": "yes"
+      },
+      {
+        "id": "Q347",
+        "answer": "yes"
+      },
+      {
+        "id": "Q342",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q352",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q368",
+        "answer": "yes"
+      },
+      {
+        "id": "Q369",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q366",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q378",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q422",
+        "answer": "neutral"
+      },
+      {
+        "id": "Q370",
+        "answer": "yes"
+      }
+    ]
+  },
+  {
+    "name": "初心者・不明",
+    "old": {
+      "combat": [],
+      "personality": "独立順位なし",
+      "appearance": []
+    },
+    "new": {
+      "combat": [],
+      "personality": [],
+      "appearance": []
+    },
+    "lightAnswers": [
+      {
+        "id": "Q079",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q111",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q040",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q153",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q270",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q175",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q302",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q087",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q337",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q336",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q359",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q347",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q352",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q342",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q368",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q369",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q366",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q378",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q422",
+        "answer": "unknown"
+      },
+      {
+        "id": "Q373",
+        "answer": "unknown"
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+原本：compass-hero-test-v91010-light-prototype.zip
+SHA256 d26cb1b242804d160e2b6d7e19c8c8096fc4f50574c49e25e3af3e4384e76ce2
+変更: app.js, index.html, style.css
+追加: hero-library.js, test-stage29-browser.py
+一致: 356ファイル。欠落なし。
+light.js / light-data.js / practical.js / practical-adaptive.js / core.js / data.js / data.json は全て原本とバイト一致。

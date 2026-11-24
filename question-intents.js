@@ -46,9 +46,10 @@ function niceSignal(key){const i=key.indexOf(':');if(i<0)return NAMES[key]||`未
  if(kind==='tradeoff')return '低耐久でも火力を出す操作';
  return NAMES[tag]||`未整理の登録特性（${tag}）`;
 }
-function practical(q){const [purpose,note]=PRACTICAL[q.id]||['回答した操作経験を関連するヒーローに照合します。','この質問の目的は監査中です。'];
+function practical(q){if(q.mode==='meta')return {id:q.id,purpose:'プレイ頻度と使用ヒーローの幅を確認し、次の質問を選ぶ参考にします。',signals:['診断の分岐にのみ使用'],impact:'ランキングへの加点・減点は0点です。1キャラ中心でも他のロールを除外しません。',note:'経験が少なくても回答できます。'};
+ const [purpose,note]=PRACTICAL[q.id]||[q.mode==='preference'?'今後試してみたい戦い方を確認します。操作技術とは別に扱います。':q.mode==='usage'?'実際にデッキに採用する頻度を確認します。':'普段の実戦行動や操作を確認し、似た主力行動のヒーローを調べます。','この質問はv9.10.7で追加した適応型の研究質問です。'];
  const signals=Object.entries(q.signals||{}).map(([key,w])=>`${niceSignal(key)}（配分${Math.round(w*100)}%）`);
- const effect=q.responseMode==='style'?'これは実技ではなく普段の立ち回りの傾向です。「よくある」は弱めのプラス、「場面による」は小さなプラス、「あまりない」はごく小さなマイナスです。':q.responseMode==='usage'?'実際のデッキ使用経験を小さく参考加点します。使わない回答を「苦手」と決めつけず、強い減点はしません。':q.id.startsWith('K')||q.id==='D03'?'「できる」「ある程度できる」は適性加点しません。「苦手」は主力候補として登録された一部の構成に小さな減点となります。未経験は中立です。':'操作経験の自己申告です。得意な操作は控えめに加点、苦手な操作は減点します。ただし同じ操作が得意でも全キャラの主力戦法とは限りません。';
+ const effect=q.mode==='preference'?'これから試したい戦い方への興味を少しだけ参考にします。強い技術があると決めつけません。':q.mode==='haSkill'||q.mode==='hsSkill'?'個別に研究済みのHA・HS対応候補だけに小さく反映します。未確認のヒーローは中立です。':q.mode==='cardSkill'?'カードの操作だけでは推薦加点せず、苦手が明確な場合のみ小さく評価します。':q.responseMode==='style'?'これは実技ではなく普段の立ち回りの傾向です。「よくある」は弱めのプラス、「場面による」は小さなプラス、「あまりない」はごく小さなマイナスです。':q.responseMode==='usage'?'実際のデッキ使用経験を小さく参考加点します。使わない回答を「苦手」と決めつけず、強い減点はしません。':q.id.startsWith('K')||q.id==='D03'?'「できる」「ある程度できる」は適性加点しません。「苦手」は主力候補として登録された一部の構成に小さな減点となります。未経験は中立です。':'操作経験の自己申告です。得意な操作は控えめに加点、苦手な操作は減点します。ただし同じ操作が得意でも全キャラの主力戦法とは限りません。';
  return {id:q.id,purpose,signals,impact:`${effect} 設問の重み${q.weight}。具体的な順位変化は他の回答とヒーローの登録値にもよります。`,note};
 }
 function classic(q,stage,hero,data){

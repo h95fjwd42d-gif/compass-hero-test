@@ -1,0 +1,33 @@
+/* Stage28 light prototype only. The practical engine and legacy data are untouched. */
+(function(root,factory){const e=factory(root.COMPASS_DATA,root.COMPASS_LIGHT_DATA);root.COMPASS_LIGHT=e;if(typeof module==='object'&&module.exports)module.exports=e})(typeof window!=='undefined'?window:globalThis,function(D,L){
+ 'use strict';
+ const version=L.version,A=['yes','no','neutral','unknown'],tracks=['personality','combat','appearance'];
+ const labels={personality:'性格・人物像の相性',combat:'戦い方の好み',appearance:'見た目の好み',final:'最後のひとつ'};
+ const quotas={personality:10,combat:5,appearance:4};
+ const questions=L.questions, map=new Map(questions.map(q=>[q.id,q]));
+ const special=questions.filter(q=>q.special), specific=D.heroes.map(h=>({id:'S'+String(h.id).padStart(3,'0'),track:'final',question:h.specificQuestion,signals:{},heroId:h.id}));
+ specific.push({id:'S000',track:'final',question:'今回の診断で、新しいヒーローに興味を持った？',signals:{},heroId:null});
+ specific.forEach(q=>map.set(q.id,q));
+ const byId=id=>map.get(id), decisive=a=>a.answer==='yes'||a.answer==='no';
+ const own=(o,k)=>Object.prototype.hasOwnProperty.call(o,k);
+ const known=(h,q)=>own(q.values||{},h.id), match=(h,q)=>known(h,q)?q.values[h.id]:null;
+ const eligible=(h,t)=>questions.some(q=>q.track===t&&!q.special&&known(h,q));
+ function contribution(h,q,answer){if(!known(h,q)||!['yes','no'].includes(answer))return null;const v=match(h,q);if(q.track==='personality')return (2*v-1)*(answer==='yes'?1:-1);if(q.special)return answer==='yes'?.45:0;return answer==='yes'?v:-v*.75;}
+ function compute(s){const out={};for(const t of tracks){const answers=s.history.filter(a=>byId(a.id)?.track===t&&decisive(a));const excl=new Set(t==='combat'?answers.filter(a=>a.answer==='no').flatMap(a=>byId(a.id).exclude||[]):[]);const all=D.heroes.filter(h=>eligible(h,t)&&!excl.has(h.id));const rows=all.map(hero=>{const vs=answers.map(a=>contribution(hero,byId(a.id),a.answer)).filter(v=>v!==null);const sum=vs.reduce((a,b)=>a+b,0);const supports=vs.filter(v=>v>0).length;return {hero,score:Math.round((50+50*sum/(answers.length+1))*10)/10,known:vs.length,supports};}).filter(r=>r.supports>0&&r.score>50).sort((a,b)=>b.score-a.score||b.supports-a.supports||a.hero.id-b.hero.id);const ready=answers.length>=1&&rows.length>0;out[t]={ready,ranked:ready?rows:[],answered:answers.length,positive:answers.filter(a=>a.answer==='yes').length,quota:quotas[t],eligible:all.length,missing:D.heroes.filter(h=>!eligible(h,t)).map(h=>h.id),excluded:[...excl]};}return out;}
+ // Deterministic tie ordering and session seed allow back/reload and reproducibility.
+ function hash(seed,str){let h=seed>>>0;for(const c of str)h=Math.imul(h^c.charCodeAt(0),16777619)>>>0;return h/4294967296;}
+ function chooseSelf(s){const prev=s.history.filter(a=>byId(a.id)?.track==='personality');const counts={};prev.forEach(a=>{const g=byId(a.id).group;counts[g]=(counts[g]||0)+1});const axes=D.axes.filter(a=>a.id!=='character').map(a=>a.id);let ax=axes.find(a=>!counts[a]);if(!ax){const undec=prev.find(a=>!decisive(a));ax=undec?byId(undec.id).axis:axes.slice().sort((a,b)=>hash(s.seed,a)-hash(s.seed,b))[0];}const choices=questions.filter(q=>q.track==='personality'&&q.axis===ax&&!prev.some(a=>a.id===q.id));return choices.sort((a,b)=>hash(s.seed,a.id)-hash(s.seed,b.id)||a.id.localeCompare(b.id))[0]?.id;}
+ function choose(s){const n=s.history.length;if(n>=20)return null;if(n<10)return chooseSelf(s);if(n===19){const o=compute(s);const first=o.combat.ranked[0]||o.personality.ranked[0]||o.appearance.ranked[0];return 'S'+String(first?.hero.id||0).padStart(3,'0');}
+ const t=n<15?'combat':'appearance',prev=s.history.filter(a=>byId(a.id)?.track===t),used=new Set(prev.map(a=>a.id)),out=compute(s)[t];
+ // A special check is never an anchor: only after >=2 decisive ordinary answers and a matching top-five candidate.
+ if(t==='combat'&&prev.filter(a=>decisive(a)&&!byId(a.id).special).length>=2&&out.ready){const checks=special.filter(q=>!used.has(q.id)).map(q=>({q,rank:out.ranked.slice(0,5).findIndex(r=>q.exclude.includes(r.hero.id)&&r.score>=out.ranked[0].score-12)})).filter(x=>x.rank>=0).sort((a,b)=>a.rank-b.rank||a.q.id.localeCompare(b.q.id));if(checks.length)return checks[0].q.id;}
+ const pool=D.heroes.filter(h=>!out.excluded.includes(h.id)), top=new Set(out.ranked.slice(0,24).map(r=>r.hero.id)), hasTop=top.size>0;
+ const candidates=questions.filter(q=>q.track===t&&!q.special&&!used.has(q.id));
+ const scored=candidates.map(q=>{let w=0,m=0,sq=0,cov=0;for(const h of pool){const weight=hasTop&&top.has(h.id)?3:1;const v=match(h,q),info=v??0;w+=weight;m+=weight*info;sq+=weight*info*info;if(v!==null)cov+=weight;}const variance=sq/w-(m/w)**2;const diversity=prev.some(a=>byId(a.id).group===q.group)?.07:0;const unseen=pool.filter(h=>known(h,q)&&!prev.some(a=>known(h,byId(a.id)))).length/pool.length;const overlap=Math.max(0,...prev.filter(a=>!byId(a.id).special).map(a=>{const p=byId(a.id);let intersection=0,union=0;for(const h of pool){const a1=known(h,p),b1=known(h,q);if(a1||b1)union++;if(a1&&b1)intersection++;}return union?intersection/union:0;}));return {id:q.id,score:variance+.08*cov/w+(!hasTop?.32:.04)*unseen-diversity-.10*overlap+.003*hash(s.seed,q.id)};});return scored.sort((a,b)=>b.score-a.score||a.id.localeCompare(b.id))[0]?.id||null;}
+ function session(seed){const s={version,seed:Number.isInteger(seed)?seed>>>0:Math.floor(Math.random()*4294967296),createdAt:new Date().toISOString(),history:[],questionId:null};s.questionId=choose(s);return s;}
+ function safeSession(s){if(!s||s.version!==version||!Number.isInteger(s.seed)||!Array.isArray(s.history)||s.history.length>20||typeof s.createdAt!=='string')return false;const prefix={seed:s.seed,history:[]};for(const a of s.history){if(!A.includes(a.answer)||choose(prefix)!==a.id)return false;prefix.history.push(a);}return choose(prefix)===s.questionId;}
+ function answer(s,value){if(!A.includes(value)||!s.questionId||s.history.length>=20)throw Error('invalid answer');const n={...s,history:[...s.history,{id:s.questionId,answer:value}]};n.questionId=choose(n);return n;}
+ function back(s){if(!s.history.length)return s;return {...s,history:s.history.slice(0,-1),questionId:s.history.at(-1).id};}
+ function reasons(s,h,t){return s.history.filter(a=>byId(a.id)?.track===t&&decisive(a)).map(a=>{const q=byId(a.id),v=contribution(h,q,a.answer);return {question:q.question,answer:a.answer,value:v,source:q.source};}).filter(a=>a.value>0).sort((a,b)=>b.value-a.value).slice(0,2);}
+ return {version,A,tracks,labels,quotas,questions,specific,byId,compute,choose,session,safeSession,answer,back,reasons,eligible,match,known,contribution};
+});

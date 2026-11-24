@@ -209,3 +209,5 @@
 
 /* Stage71 display-only rename */
 .mode-card strong .mode-recommended{font-size:11px;font-weight:700;color:#16803d;letter-spacing:0;white-space:nowrap;vertical-align:middle;margin-left:4px;}
+
+.history-record-list{display:grid;gap:10px;max-height:540px;overflow:auto;padding:3px}.history-record{display:flex;align-items:center;justify-content:space-between;text-align:left;width:100%;background:#fff;color:#18374e;border:1px solid #c9e1ef;border-radius:14px;padding:14px 16px;cursor:pointer;font:inherit}.history-record span:first-child{display:grid;gap:5px;min-width:0;overflow-wrap:anywhere}.history-record small{color:#50778d;font-size:.8rem}.history-record:hover,.history-record:focus-visible{border-color:#1685af;outline:2px solid #92d0e7}.history-archive-note{padding:12px;border:1px solid #c9e1ef;border-radius:12px;background:#edf7fc;color:#365f76}
